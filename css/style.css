@@ -1,6 +1,6 @@
 h3{
     color:rgb(203, 22, 22);
-    font-size: red;
+    font-size:30px;
     background-color: blueviolet;
     text-align: center;
 }
@@ -10,3 +10,39 @@ h5{
     font-size: medium;
     text-align: center;
 }
+ .t_uppercase{
+            text-transform: uppercase;
+            color:black;
+            text-shadow: 2px 9px 5px blueviolet;
+        }
+        .t_lowercase{
+            text-transform: lowercase;
+            color: blueviolet;
+            text-shadow: 1px 10px 5px red ;
+            text-align: left;
+        }
+        .t_capitilize{
+            text-transform:capitalize;
+            color:blueviolet;
+            text-decoration:underline overline dotted;
+        }
+    .t_center{
+        text-align: center;
+        color: blue;
+    }
+    .t_right{
+        text-align: right;
+        color: brown;
+    }
+    .t_indent{
+        text-indent:150px ;
+    }
+    .t_height{
+        line-height: 30px;
+    }
+    .w_spacing{
+        word-spacing: 10px;
+    }
+    .l_spacing{
+        letter-spacing: 20;
+    }

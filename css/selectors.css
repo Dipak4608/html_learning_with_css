@@ -1,0 +1,12 @@
+.heading1,.heading2,.heading3{
+    color:brown;
+    font-size: 30px;
+}
+#heading1{
+    color:blue;
+    font-size: 30px;
+}
+*{
+    color:chocolate;
+    font-size: 30px;
+}
