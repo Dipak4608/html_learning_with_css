@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         .container{
-            display: flex;
+            display:flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 10px;
@@ -32,7 +32,7 @@
 
         }
         .box2:hover{
-            transform: translate(125px);
+            transform: translateX(125px);
              background-color: chartreuse;
         }
         .box3:hover{
@@ -40,7 +40,7 @@
              background-color: chartreuse;
         }
         .box4:hover{
-            transform: Rotate(90deg);
+            transform: Rotate(45deg);
              background-color: chartreuse;
         }
         .box5:hover{
@@ -51,7 +51,9 @@
             transform: scale(2);
              background-color: chartreuse;
         }
-
+        .box7:hover{
+            transform: scale(2) skewY(30deg) rotate(45deg);
+        }
 
     </style>
 </head>
@@ -63,6 +65,7 @@
          <div class="box box4">Rotate</div>
          <div class="box box5">skewY</div>
          <div class="box box6">scale</div>
+         <div class="box box7">All combine</div>
 
     </div>
 </body>
